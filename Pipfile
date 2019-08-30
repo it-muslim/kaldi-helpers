@@ -12,6 +12,9 @@ pre-commit = ">=1.18"
 numpy = ">=1.16"
 pandas = ">=0.24"
 fire = ">=0.2"
+matplotlib = "*"
+seaborn = "*"
+sklearn = "*"
 
 [requires]
 python_version = "3.6"
