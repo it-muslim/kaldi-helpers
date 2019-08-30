@@ -4,7 +4,7 @@ These are helper scrips for working with kaldi projects.
 
 ## Available functions and examples
 
-**NOTE:** It is supposed that kaldi functions are added to the PATH. I.e. do `source path.sh` in one of your projects before run a script.
+:warning: **NOTE:** It is supposed that kaldi functions are added to the PATH. I.e. do `source path.sh` in one of your projects before run a script.
 
 ### `pdf2phone`
 Map pdf_id(s) to actual phones
@@ -81,6 +81,7 @@ utterance_id_2  [
 
 ### `read_ali`
 Reading from stdout, import alignments as a numpy array
+
 **EXAMPLE**:
 ```python
 >>> read_ali("exp/mono_mfcc") # the same as read_ali("exp/mono_mfcc/final.mdl")
